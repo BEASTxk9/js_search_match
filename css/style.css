@@ -1,0 +1,60 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+}
+
+html{
+    background-color: rgb(235, 163, 29);
+    font-family: roboto mono;
+    overflow-x: hidden;
+}
+
+.form-search{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    padding-top: 10vh;
+    border: none;
+    border-bottom: 2px black solid; 
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    outline: none;
+}
+
+.search::placeholder{
+    color: black;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    border: 1px rgb(196, 196, 196) solid;
+    text-align: start;
+    width: 20vh;
+    background-color: white;
+}
+
+
+.suggestions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+    color: black;
+    width: 100%;
+}
+
+.hl{
+    background-color:  rgba(235, 163, 29, 0.747);
+    padding: 2px;
+}
